@@ -12,7 +12,7 @@ Reusable skills for Claude Code (and other agents that read `SKILL.md`), extract
 With the [skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
-npx skills add <owner>/agent-skills
+npx skills add panutthon/agent-skills
 ```
 
 Or manually — copy a skill folder into your skills directory:
