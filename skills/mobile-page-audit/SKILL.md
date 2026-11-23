@@ -1,6 +1,17 @@
 ---
 name: mobile-page-audit
-description: Audit and fix a web app page by page until it works on phones and tablets like a native app — measure with Chrome DevTools MCP at 360/390/820/1366 px (plus dark mode and every user role), report findings as a severity table with measured numbers, wait for the user to choose what to fix, fix touch-only without changing desktop, re-check, and test on a real Android phone over adb. Use whenever the user mentions responsive, mobile, phone, iPad, tablet, touch, "looks bad on mobile", "make it feel like an app", uneven buttons, audit page X on mobile, test on Android / USB debugging, or says "next page" while working through pages one by one — even if they never say "responsive". Thai triggers: มือถือ, ไอแพด, แท็บเล็ต, ดูไม่สวยบนมือถือ, ทำให้เหมือนแอป, ปุ่มไม่เท่ากัน, ตรวจหน้าถัดไป, เสียบสาย debug.
+description: >-
+  Audit and fix a web app page by page until it works on phones and tablets like
+  a native app — measure with Chrome DevTools MCP at 360/390/820/1366 px (plus
+  dark mode and every user role), report findings as a severity table with
+  measured numbers, wait for the user to choose what to fix, fix touch-only
+  without changing desktop, re-check, and test on a real Android phone over adb.
+  Use whenever the user mentions responsive, mobile, phone, iPad, tablet, touch,
+  "looks bad on mobile", "make it feel like an app", uneven buttons, audit page
+  X on mobile, test on Android / USB debugging, or says "next page" while
+  working through pages one by one — even if they never say "responsive". Thai
+  triggers: มือถือ, ไอแพด, แท็บเล็ต, ดูไม่สวยบนมือถือ, ทำให้เหมือนแอป,
+  ปุ่มไม่เท่ากัน, ตรวจหน้าถัดไป, เสียบสาย debug.
 ---
 
 # Mobile page audit

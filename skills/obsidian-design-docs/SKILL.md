@@ -1,6 +1,20 @@
 ---
 name: obsidian-design-docs
-description: Keep a project's design documentation in an Obsidian vault (numbered Markdown notes such as 00-Overview, 01-Flow, 02-ER-Diagram, 07-Backend) in sync with the code. Use WHENEVER a feature, flow, business rule, endpoint, permission, status, or field was added, changed or removed and the written design docs should reflect it — phrasings like "update the docs", "update Obsidian", "sync the design docs", "document this feature for the team", "the docs are out of date", "create a new note for X", or Thai "อัพเดตเอกสาร", "อัพเดต Obsidian", "บันทึกลงเอกสารออกแบบ", "แก้เอกสารให้ตรงโค้ด". Trigger even when "Obsidian" isn't said but the user clearly wants the project's design notes current after a code change. It verifies facts in the code, edits the right numbered notes in place or creates a new one, and registers new notes in the overview index and the agent reading list (CLAUDE.md / AGENTS.md). Not for: inline code comments/JSDoc, README files, personal journal vaults, writing specs or implementation plans, or drafting doc text only in chat.
+description: >-
+  Keep a project's design documentation in an Obsidian vault (numbered Markdown
+  notes such as 00-Overview, 01-Flow, 02-ER-Diagram, 07-Backend) in sync with
+  the code. Use WHENEVER a feature, flow, business rule, endpoint, permission,
+  status, or field was added, changed or removed and the written design docs
+  should reflect it — phrasings like "update the docs", "update Obsidian", "sync
+  the design docs", "document this feature for the team", "the docs are out of
+  date", "create a new note for X", or Thai "อัพเดตเอกสาร", "อัพเดต Obsidian",
+  "บันทึกลงเอกสารออกแบบ", "แก้เอกสารให้ตรงโค้ด". Trigger even when "Obsidian"
+  isn't said but the user clearly wants the project's design notes current after
+  a code change. It verifies facts in the code, edits the right numbered notes
+  in place or creates a new one, and registers new notes in the overview index
+  and the agent reading list (CLAUDE.md / AGENTS.md). Not for: inline code
+  comments/JSDoc, README files, personal journal vaults, writing specs or
+  implementation plans, or drafting doc text only in chat.
 ---
 
 # Obsidian design docs
